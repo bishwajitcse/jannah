@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JANNAH</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_root"></string>
+    <string name="github">Nexa</string>
+    <string name="github_label">Nexa Bangladesh</string>
+    <string name="title_activity_suites_discover"></string>
+    <string name="karim">The “Karim” Services offer an unprecedented level of service. More than a concierge or butler, Karim delivers personalized attention without intrusion, turning each stay into a return home where desires and requests are anticipated. Our Karims are talented, service oriented and trained to anticipate your every need and comply with the ultimate pace and efficiency. The unprecedented Karim Service is available 24 hours a day with the following features as standard with every stay at Jannah.</string>
+    <string name="title_activity_check_aviable"></string>
+    <string name="txtGuest"></string>
+
+    <string-array name="guest_array">
+        <item>1</item>
+        <item>2</item>
+     
+    </string-array>
+    <string-array name="guest_array2">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string name="title_activity_web_viewtemp"></string>
+
+</resources>

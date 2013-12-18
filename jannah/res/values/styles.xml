@@ -1,0 +1,45 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="nexaTheme" parent="Theme.Sherlock.Light.DarkActionBar">
+        <item name="homeAsUpIndicator">@drawable/menu_list</item>
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+        <item name="android:homeAsUpIndicator">@drawable/indicator</item>
+    </style>
+
+    <style name="ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:icon">@drawable/btn_menu</item>
+    </style>
+
+    
+
+    <style name="nexaTheme2" parent="Theme.Sherlock.Light.DarkActionBar">
+        <item name="homeAsUpIndicator">@null</item>
+        <item name="android:actionBarStyle">@style/ActionBar2</item>
+        <item name="android:homeAsUpIndicator">@null</item>
+    </style>
+
+    <style name="ActionBar2" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:icon">@null</item>
+    </style>
+    
+    
+
+
+</resources>

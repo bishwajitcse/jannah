@@ -1,0 +1,175 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RootActivity" >
+
+    <ImageView
+        android:id="@+id/banner_rootpage"
+        android:layout_width="wrap_content"
+        android:layout_height="100dip"
+        android:background="@drawable/banner" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/banner_rootpage"
+        android:background="@drawable/inner_head" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="12dp"
+        android:text="TextView"
+        android:textSize="15sp" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="55dip"
+        android:layout_height="32dip"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dip"
+        android:background="@drawable/inner_back" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="550dp"
+            android:layout_alignParentLeft="true" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="@string/txtGuest" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="wrap_content"
+                android:layout_height="40dip"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView2"
+              
+                android:background="@drawable/in_back"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:text="ROOM GALLERY"
+                    android:textColor="#caa846" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/line_vertical" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:text="FORM" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" AED750"
+                    android:textColor="#caa846" />
+
+                <ImageButton
+                    android:id="@+id/dis_book"
+                    android:layout_width="70dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/in_btnbook" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/line_feature" />
+
+            <ImageButton
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imageButton2"
+                android:layout_toRightOf="@+id/imageView4"
+                android:background="@drawable/next" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageButton2"
+                android:layout_marginTop="50dip"
+                android:text="FEAURES:"
+                android:textColor="#caa846" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageButton2"
+                android:layout_marginTop="70dip"
+                android:background="@drawable/line_feature" />
+
+            <ListView
+                android:id="@+id/list_discoverfeature"
+                android:layout_width="fill_parent"
+                android:layout_height="300dp"
+                android:layout_weight="28"
+                 android:layout_below="@+id/imageButton2"
+                android:layout_marginTop="80dip"
+                tools:listitem="@layout/suitesdiscoverfeature" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="240dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/linearLayout1"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/suites1" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imageView4"
+                android:layout_marginTop="31dp"
+                android:layout_toLeftOf="@+id/imageView4"
+                android:background="@drawable/pre" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

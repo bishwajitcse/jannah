@@ -1,0 +1,13 @@
+<resources>
+
+    <!--
+         Customize dimensions originally defined in res/values/dimens.xml (such as
+         screen margins) for sw600dp devices (e.g. 7" tablets) here.
+    -->
+
+    <dimen name="tab_font">20sp</dimen>
+    <dimen name="action_home">74dip</dimen>
+    <dimen name="action_map">132dip</dimen>
+    <dimen name="action_book">10dip</dimen>
+
+</resources>

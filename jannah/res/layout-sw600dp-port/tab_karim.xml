@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="#f2f2f2"
+ 
+  >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txt_karim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:text="KARIM" />
+
+        <TextView
+            android:id="@+id/txt_karimhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="THE KARIM SERVICE … “JUST ASK”"
+            android:textSize="17sp"
+            android:textColor="#caa846" />
+
+        <TextView
+            android:id="@+id/txt_karimDetails"
+            android:layout_width="match_parent"
+            android:layout_height="100dip"
+            android:layout_marginTop="10dp"
+            android:text="@string/karim"
+            android:textSize="17sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="310dp" >
+
+            <ImageButton
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/imageView1"
+                android:background="@drawable/pre" />
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imageView3"
+                android:layout_toRightOf="@+id/imageView1"
+                android:background="@drawable/next" />
+
+            <ImageButton
+                android:id="@+id/btn_karimstay"
+                android:layout_width="170dip"
+                android:layout_height="33dip"
+                android:layout_alignLeft="@+id/imageView1"
+                android:layout_marginTop="30dip"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/btn_stay" />
+
+            <ImageButton
+                android:id="@+id/btn_karimservice"
+                android:layout_width="170dip"
+                android:layout_height="33dip"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@+id/imageButton1"
+                android:background="@drawable/btn_exservice" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="450dp"
+                android:layout_height="230dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/karim1" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:text="FEAURES:"
+             android:textSize="17sp"
+            android:textColor="#caa846" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line_feature" />
+
+        <ListView
+            android:id="@+id/list_karim"
+            android:layout_width="fill_parent"
+            android:layout_height="300dp"
+            android:layout_weight="28"
+            tools:listitem="@layout/karimfeaturesist" />
+    </LinearLayout>
+
+</ScrollView>

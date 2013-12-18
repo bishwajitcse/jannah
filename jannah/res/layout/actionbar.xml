@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center" >
+
+    <ImageButton
+        android:id="@+id/home"
+        android:onClick="Click"
+        android:layout_width="27dip"
+        android:layout_height="25dip"
+        android:background="@drawable/home"
+        android:layout_marginLeft="@dimen/action_home" />
+     <ImageButton
+        android:id="@+id/map"
+       
+        android:layout_width="32dip"
+        android:layout_height="32dip"
+        android:background="@drawable/location"
+        android:layout_marginLeft="@dimen/action_map" />
+     
+     <ImageButton
+        android:id="@+id/book"
+        android:onClick="Click"
+        android:layout_width="50dip"
+        android:layout_height="30dip"
+        android:background="@drawable/map"
+        android:layout_marginLeft="@dimen/action_book" />
+     
+     
+   
+
+
+
+</LinearLayout>

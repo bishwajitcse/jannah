@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="slidingmenu_offset">60dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+    <dimen name="action_home">2dip</dimen>
+    <dimen name="action_map">132dip</dimen>
+    <dimen name="action_book">10dip</dimen>
+    <dimen name="inerbtn">70dip</dimen>
+    <dimen name="in_logomargin">140dip</dimen>
+    <dimen name="right_karimmargin">10dip</dimen>
+    <dimen name="karim_w"> 250dip</dimen>
+    <dimen name="tab_font">8sp</dimen>
+
+</resources>

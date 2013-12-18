@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+  
+    android:minHeight="50dp"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f2f2f2" >
+
+        <ImageView
+            android:id="@+id/suitesSnap"
+            android:layout_width="150dip"
+            android:layout_height="120dip"
+            android:layout_marginTop="0dp" />
+
+        <TextView
+            android:id="@+id/txt_suitesDetials"
+            android:layout_width="250dip"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btn_suitesDiscover"
+            android:layout_alignLeft="@+id/suiteshead"
+            android:layout_below="@+id/suiteshead"
+            android:textSize="10sp"
+            android:textColor="#000000"
+            android:text="TextView" />
+
+        <ImageButton
+            android:id="@+id/btn_suitesDiscover"
+            android:layout_width="60dip"
+            android:layout_height="23dip"
+            android:layout_alignBottom="@+id/suitesSnap"
+            android:layout_alignLeft="@+id/txt_suitesDetials"
+            android:background="@drawable/btn_discover" />
+
+        <TextView
+            android:id="@+id/suiteshead"
+            android:layout_width="250dip"
+            android:layout_height="35dip"
+         	android:layout_marginLeft="10dip"
+            android:layout_toRightOf="@+id/suitesSnap"
+            android:text="TextView"
+            android:textColor="#caa846"
+            android:textSize="12sp" />
+
+        <ImageButton
+            android:id="@+id/btn_suitesCheck"
+             android:layout_width="wrap_content"
+            android:layout_height="23dip"
+            android:layout_alignBottom="@+id/suitesSnap"
+            android:layout_alignLeft="@+id/txt_suitesDetials"
+            android:background="@drawable/btn_check" 
+            android:layout_marginLeft="80dip"
+           />
+
+    </RelativeLayout>
+
+</RelativeLayout>

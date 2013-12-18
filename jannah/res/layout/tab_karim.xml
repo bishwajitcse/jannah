@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="#f2f2f2"
+ 
+  >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txt_karim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KARIM" />
+
+        <TextView
+            android:id="@+id/txt_karimhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="THE KARIM SERVICE … “JUST ASK”"
+            android:textColor="#caa846" />
+
+        <TextView
+            android:id="@+id/txt_karimDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/karim"
+            android:textSize="11sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:gravity="center" >
+
+            <ImageButton
+                android:id="@+id/btn_karimstay"
+                android:layout_width="120dip"
+                android:layout_height="23dip"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/imageView1"
+                android:layout_marginTop="5dip"
+                android:layout_marginLeft="35dp"
+                android:background="@drawable/btn_stay" />
+
+            <ImageButton
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="51dp"
+                android:background="@drawable/pre" />
+
+            <ImageButton
+                android:id="@+id/btn_karimservice"
+                android:layout_width="120dip"
+                android:layout_height="23dip"
+                android:layout_alignRight="@+id/imageView1"
+                android:layout_alignTop="@+id/btn_karimstay"
+                android:background="@drawable/btn_exservice" />
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="25dip"
+                android:layout_height="wrap_content"
+           
+                android:layout_toRightOf="@+id/imageView1"
+            
+                android:layout_alignTop="@+id/imageView3"
+                android:background="@drawable/next" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="@dimen/karim_w"
+                android:layout_height="150dp"
+                android:layout_alignLeft="@+id/btn_karimstay"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/karim1" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:text="FEAURES:"
+            android:textColor="#caa846" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line_feature" />
+
+        <ListView
+            android:id="@+id/list_karim"
+            android:layout_width="fill_parent"
+            android:layout_height="300dp"
+            android:layout_weight="28"
+            tools:listitem="@layout/karimfeaturesist" />
+    </LinearLayout>
+
+</ScrollView>
